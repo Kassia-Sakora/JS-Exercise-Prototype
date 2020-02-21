@@ -106,10 +106,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global Object Binding - using the value of "this" will apply to the whole window.
+  2. Implicit Binding - when using dot notation to call a function, whatever is to the right of the dot will be what "this" refers to.
+  3. New binding - using the keyword "new" allows you to add a new entry for an existing object.
+  4. Explicit binding - "this" is explicitly defined when using the functions .call and .apply.
 */
 
 
